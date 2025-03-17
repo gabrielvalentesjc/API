@@ -8,9 +8,9 @@
 
 ## 🚀 Tecnologias Utilizadas
 
-> 💻 **Linguagem:** Portugol
-> 🔧 **Ferramentas:**  VisuAlg, Git, GitHub
-> 🗃️ **Metodologia:** Scrum
+- 💻 **Linguagem:** Portugol
+- 🔧 **Ferramentas:**  VisuAlg, Git, GitHub
+- 🗃️ **Metodologia:** Scrum
 
 
 
