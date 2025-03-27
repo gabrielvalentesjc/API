@@ -23,7 +23,7 @@
 ## Tecnologias Utilizadas
 
 - 💻 **Linguagem:** Portugol
-- 🔧 **Ferramentas:**  VisuAlg, Trello, Git, GitHub
+- 🔧 **Ferramentas:**  VisuAlg, Trello, Notion, Git e GitHub
 - 🗃️ **Metodologia:** Scrum
 
 ## Funcionalidades
