@@ -1,4 +1,5 @@
- <h1> API - SEQUÊNCIAS NÚMERICAS <h1>
+![Aprendizado Por Projeto Integrado (1)](https://github.com/user-attachments/assets/9f28fe3d-6635-4eca-8655-17f9e63a8e02)
+
 
 ## Tópicos 
 
@@ -36,26 +37,15 @@
 - **Sequência de Fibonacci**: Apresenta o resultado e o intervalo de resultado do primeiros numero de uma sequencia em que cada número é a soma dos dois anteriores, começando por 1. Limite de 47. 
 
 ## Backlog do Produto
-- Menu
-- Sequência de Fibonacci
-- Sequência Números Triangulares
-- Sequência de Números Primos
-- Sequência Fatorial
-- Sequência Quadrados Perfeitos
-- Sequência de Cubos
-- Sequência Geométrica
-- Sequência Alternada
-- Sequência de Tribonacci
-- Manual do Usuario
+
+![Captura de tela 2025-03-26 201349](https://github.com/user-attachments/assets/8f1b3512-2ce7-45e6-915a-76901c47f2a7) 
+
+
 
 ## Backlog da Sprint
-- Desenvolver interface do menu principal
-- Criar repositório no git hub
-- Desenvolver a função da Sequência Fatorial
-- Desenvolver a função da Sequência de Cubos
-- Desenvolver a função da Sequência de Fibonacci
-- Implementar as funções no menu principal
-- Realizar testes
+
+![Captura de tela 2025-03-26 201045](https://github.com/user-attachments/assets/f0811572-6910-4b73-8e37-d1cef969ec5e) 
+
   
 ## Codigo
 
