@@ -13,8 +13,6 @@
 
 :small_blue_diamond: [Código](#Codigo)
 
-:small_blue_diamond: [Documentação](#Documentação)
-
 
 ## Descrição
 
