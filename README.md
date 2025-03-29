@@ -30,9 +30,9 @@
 
 - **Sequência de Fatorial**: Apresenta o resultado de uma sequência de números naturais inteiros positivos que é calculada a partir da multiplicação de um número por todos os seus antecessores maiores que zero. Limite está em 17.
   
-- **Sequência de Cubos**: Apresenta o resultado do calculo do volume de um cubo, elevação do comprimento da aresta a três.
+- **Sequência de Cubos**: Apresenta o resultado do calculo do volume de um cubo, elevação do comprimento da aresta a três. Limite está em 6008.
   
-- **Sequência de Fibonacci**: Apresenta o resultado e o intervalo de resultado do primeiros numero de uma sequencia em que cada número é a soma dos dois anteriores, começando por 1. Limite de 47. 
+- **Sequência de Fibonacci**: Apresenta o resultado e o intervalo de resultado do primeiros numero de uma sequencia em que cada número é a soma dos dois anteriores, começando por 1. Limite está em 47. 
 
 ## Backlog do Produto
 
