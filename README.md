@@ -1,5 +1,6 @@
 ![Aprendizado Por Projeto Integrado (1)](https://github.com/user-attachments/assets/9f28fe3d-6635-4eca-8655-17f9e63a8e02)
 
+![Badge Em Desenvolvimento](https://img.shields.io/badge/Status-Em%20Desenvolvimento-badge)
 
 ## Tópicos 
 
@@ -11,7 +12,11 @@
 
 :small_blue_diamond: [Backlog da Sprint](#Backlog-da-Sprint)
 
+:small_blue_diamond: [Burndown](#Burndown)
+
 :small_blue_diamond: [Código](#Codigo)
+
+:small_blue_diamond: [Equipe](#Equipe)
 
 
 ## Descrição
@@ -40,14 +45,29 @@
 
 
 
-## Backlog da Sprint
+## Backlog da Sprint 1
 
 ![Captura de tela 2025-03-26 201045](https://github.com/user-attachments/assets/f0811572-6910-4b73-8e37-d1cef969ec5e) 
+
+## Burndown
+
+![Captura de tela 2025-03-30 224050](https://github.com/user-attachments/assets/3223b677-cd2c-4bde-ad81-00c20a792f91)
 
   
 ## Código
 
 [Código do programa - main.ALG](https://github.com/gabrielvalentesjc/API/blob/main/main.ALG)
+
+## Equipe
+
+ | Função | Nome |  LinkedIn & GitHub |
+ | - | - | - |
+ |Product Owner| Leonardo Amon Sumiyoshi Hashimoto | [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)]() [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)]()|
+ |Scrum Master| Gabriel Valente Belarmino| [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)]() [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)]()|
+ |Team Member| Maria Eduarda Teixeira Miller de Oliveira| [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)]() [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)]()|
+ |Team Member| Natália Pereira da Silva | [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)]() [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)]()|
+ |Team Member| Niuan Spolidorio da Rocha Souza| [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)]() [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)]()|
+  |Team Member| Vitor Samuel Ribeiro de Souza | [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)]() [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)]()|
 
 
 
