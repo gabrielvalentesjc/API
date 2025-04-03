@@ -21,7 +21,7 @@
 :small_blue_diamond: [Equipe](#Equipe)
 
 
-## Descriçãodsv
+## Descrição
 
 > > Desenvolvimento de Aplicação de Cálculo de Sequências Lógicas. Projeto desenvolvido para trabalho acadêmico no curso de Banco de Dados na FATEC SJC.
 
@@ -56,13 +56,14 @@
  | Sequência alternada         | Como usuário, quero... | Média | Em andamento |
  | Sequência Tribonacci        | Como usuário, quero... | Média | Em andamento |
 
-![Captura de tela 2025-03-26 201349](https://github.com/user-attachments/assets/8f1b3512-2ce7-45e6-915a-76901c47f2a7) 
-
-
-
 ## Backlog da Sprint 1
 
-![Captura de tela 2025-03-26 201045](https://github.com/user-attachments/assets/f0811572-6910-4b73-8e37-d1cef969ec5e) 
+| Função | User Story | Prioridade | Status |
+| - | - | - | - |
+| Menu                        | Como usuário, quero... | Alta  | Em andamento |
+| Sequência Fibonacci         | Como usuário, quero... | Alta  | Concluída    |
+| Números fatoriais           | Como usuário, quero... | Média | Concluída    |
+| Números cúbicos             | Como usuário, quero... | Baixa | Concluída    |
 
 ## Backlog da Sprint 2
 | Função | User Story | Prioridade | Status |
