@@ -8,6 +8,8 @@
 
 :small_blue_diamond: [Tecnologias Utilizadas](#Tecnologias-Utilizadas)
 
+:small_blue_diamond: [Funcionalidades](#Funcionalidades)
+
 :small_blue_diamond: [Backlog do Produto](#Backlog-do-Produto)
 
 :small_blue_diamond: [Backlog da Sprint](#Backlog-da-Sprint)
