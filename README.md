@@ -42,6 +42,19 @@
 - **Sequência de Fibonacci**: Apresenta o resultado e o intervalo de resultado do primeiros numero de uma sequencia em que cada número é a soma dos dois anteriores, começando por 1. Limite está em 47. 
 
 ## Backlog do Produto
+ 
+ | Função | User Story | Prioridade | Status |
+ | - | - | - | - |
+ | Menu                        | Como usuário, quero... | Alta  | Em andamento |
+ | Sequência Fibonacci         | Como usuário, quero... | Alta  | Concluída    |
+ | Números triangulares        | Como usuário, quero... | Alta  | Não iniciada |
+ | Sequência de primos         | Como usuário, quero... | Baixa | Não iniciada |
+ | Números fatoriais           | Como usuário, quero... | Média | Concluída    |
+ | Números quadrados perfeitos | Como usuário, quero... | Alta  | Em andamento |
+ | Números cúbicos             | Como usuário, quero... | Baixa | Concluída    |
+ | Sequência Geométrica        | Como usuário, quero... | Baixa | Não iniciada |
+ | Sequência alternada         | Como usuário, quero... | Média | Em andamento |
+ | Sequência Tribonacci        | Como usuário, quero... | Média | Em andamento |
 
 ![Captura de tela 2025-03-26 201349](https://github.com/user-attachments/assets/8f1b3512-2ce7-45e6-915a-76901c47f2a7) 
 
@@ -62,14 +75,14 @@
 
 ## Equipe
 
- | Função | Nome |  LinkedIn & GitHub |
- | - | - | - |
- |Product Owner| Leonardo Amon Sumiyoshi Hashimoto | [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)]() [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)]()|
- |Scrum Master| Gabriel Valente Belarmino| [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)]() [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)]()|
- |Team Member| Maria Eduarda Teixeira Miller de Oliveira| [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)]() [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)]()|
- |Team Member| Natália Pereira da Silva | [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)]() [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)]()|
- |Team Member| Niuan Spolidorio da Rocha Souza| [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)]() [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)]()|
-  |Team Member| Vitor Samuel Ribeiro de Souza | [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)]() [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)]()|
+ | Função      | Nome                                     | LinkedIn | Github |
+ | -           | -                                        | -        | -      |
+ |Product Owner| Leonardo Amon Sumiyoshi Hashimoto        | [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)]()|  [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)]() |
+ |Scrum Master | Gabriel Valente Belarmino                | [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)]() | [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)]()|
+ |Team Member  | Maria Eduarda Teixeira Miller de Oliveira| [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)]() | [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)]()|
+ |Team Member  | Natália Pereira da Silva                 | [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)]() | [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)]()|
+ |Team Member  | Niuan Spolidorio da Rocha Souza          | [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)]() | [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)]()|
+ |Team Member | Vitor Samuel Ribeiro de Souza            | [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)]() | [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)]()|
 
 
 
