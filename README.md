@@ -21,7 +21,7 @@
 :small_blue_diamond: [Equipe](#Equipe)
 
 
-## Descrição
+## Descriçãodsv
 
 > > Desenvolvimento de Aplicação de Cálculo de Sequências Lógicas. Projeto desenvolvido para trabalho acadêmico no curso de Banco de Dados na FATEC SJC.
 
