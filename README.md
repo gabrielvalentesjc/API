@@ -64,6 +64,15 @@
 
 ![Captura de tela 2025-03-26 201045](https://github.com/user-attachments/assets/f0811572-6910-4b73-8e37-d1cef969ec5e) 
 
+## Backlog da Sprint 2
+| Função | User Story | Prioridade | Status |
+| - | - | - | - |
+| Menu                        | Como usuário, quero... | Alta  | Em andamento |
+| Números quadrados perfeitos | Como usuário, quero... | Alta  | Em andamento |
+| Sequência alternada         | Como usuário, quero... | Média | Em andamento |
+| Sequência Tribonacci        | Como usuário, quero... | Média | Em andamento |
+  
+
 ## Burndown
 
 ![Captura de tela 2025-03-30 224050](https://github.com/user-attachments/assets/3223b677-cd2c-4bde-ad81-00c20a792f91)
