@@ -44,19 +44,20 @@
  
  | Função | User Story | Prioridade | Status |
  | - | - | - | - |
- | Menu                        | Como usuário, quero... | Alta  | Em andamento |
- | Sequência Fibonacci         | Como usuário, quero... | Alta  | Concluída    |
- | Números triangulares        | Como usuário, quero... | Alta  | Não iniciada |
- | Sequência de números primos | Como usuário, quero... | Baixa | Em andamento |
- | Números fatoriais           | Como usuário, quero... | Média | Concluída    |
- | Números quadrados perfeitos | Como usuário, quero... | Alta  | Em andamento |
- | Números cúbicos             | Como usuário, quero... | Baixa | Concluída    |
- | Sequência Geométrica        | Como usuário, quero... | Baixa | Não iniciada |
- | Sequência alternada         | Como usuário, quero... | Média | Não iniciada |
- | Sequência Tribonacci        | Como usuário, quero... | Média | Em andamento |
+ | Menu | Como usuário, gostaria de poder interagir com todas as funções do programa, sendo ele a parte principal do programa | Alta | Em andamento |
+ | Sequência Fibonacci | Como usuário, gostaria de ter duas formas de interagir com essa sequência: 1. Exigir o valor da posição de um número dessa sequência 2. Exigir uma lista de todos os valores de posições anteriores de uma posição desejada dessa sequência. A sequência deve seguir a seguinte regra: o valor de uma posição da sequência é igual a soma das DUAS posições anteriores, sendo que os dois primeiros valores da sequência são iguais a 1 | Alta | Concluída |
+ | Números triangulares | Como usuário, quero... | Alta  | Não iniciada |
+ | Sequência de números primos | Como usuário, gostaria de ter duas formas de interagir com essa sequência: 1. Exigir o valor da posição de um número dessa sequência 2. Exigir uma lista de todos os valores de posições anteriores de uma posição desejada dessa sequência. A sequência deve seguir a seguinte regra: o valor de uma posição da sequência só pode ser um número em que é divisível por 1 e por ele mesmo, não havendo resto | Baixa | Em andamento |
+ | Números fatoriais | Como usuário, gostaria de um programa que me peça um número e, com base nele, me retornar apenas o fatorial dele | Média | Concluída |
+ | Números quadrados perfeitos | Como usuário, gostaria de um programa que me peça um número e, com base nele, me retornar apenas o número escolhido elevado a DOIS | Alta  | Em andamento |
+ | Números cúbicos | Como usuário, gostaria de um programa que me peça um número e, com base nele, me retornar apenas o número escolhido elevado a TRÊS | Baixa |  Concluída |
+ | Sequência Geométrica | Como usuário, quero... | Baixa | Não iniciada |
+ | Sequência alternada | Como usuário, quero... | Média | Não iniciada |
+ | Sequência Tribonacci | Como usuário, gostaria de ter duas formas de interagir com essa sequência: 1. Exigir o valor da posição de um número dessa sequência 2. Exigir uma lista de todos os valores de posições anteriores de uma posição desejada dessa sequência. A sequência deve seguir a seguinte regra: o valor de uma posição da sequência é igual a soma das TRÊS posições anteriores, sendo que os dois primeiros valores da sequência são iguais a 1 | Média | Em andamento |
 
 ## Sprints
 
+<!--Sprint 1-->
 <details>
   <summary>Sprint 1</summary>
   <ul>
@@ -78,25 +79,27 @@
           <tbody>
             <tr>
               <td>Menu</td>
-              <td>Como usuário, quero...</td>
+              <td>Como usuário, gostaria de poder interagir com todas as funções do programa, sendo ele a parte principal do programa</td>
               <td>Alta</td>
               <td>Movido para a próxima Sprint</td>
             </tr>
             <tr>
               <td>Sequência Fibonacci</td>
-              <td>Como usuário, quero...</td>
+              <td>
+                Como usuário, gostaria de ter duas formas de interagir com essa sequência: 1. Exigir o valor da posição de um número dessa sequência 2. Exigir uma lista de                 todos os valores de posições anteriores de uma posição desejada dessa sequência. A sequência deve seguir a seguinte regra: o valor de uma posição da                        sequência é igual a soma das DUAS posições anteriores, sendo que os dois primeiros valores da sequência são iguais a 1
+              </td>
               <td>Alta</td>
               <td>Concluída</td>
             </tr>
             <tr>
               <td>Números fatoriais</td>
-              <td>Como usuário, quero...</td>
+              <td>Como usuário, gostaria de um programa que me peça um número e, com base nele, me retornar apenas o fatorial dele</td>
               <td>Média</td>
               <td>Concluída</td>
             </tr>
             <tr>
               <td>Números Cúbicos</td>
-              <td>Como usuário, quero...</td>
+              <td>Como usuário, gostaria de um programa que me peça um número e, com base nele, me retornar apenas o número escolhido elevado a TRÊS</td>
               <td>Baixa</td>
               <td>Concluída</td>
             </tr>
@@ -112,6 +115,7 @@
   </ul>
 </details>
 
+<!--Sprint 2-->
 <details>
   <summary>Sprint 2</summary>
   <ul>
@@ -133,25 +137,29 @@
           <tbody>
             <tr>
               <td>Menu</td>
-              <td>Como usuário, quero...</td>
+              <td>Como usuário, gostaria de poder interagir com todas as funções do programa, sendo ele a parte principal do programa</td>
               <td>Alta</td>
               <td>Em andamento</td>
             </tr>
             <tr>
               <td>Quadrados perfeitos</td>
-              <td>Como usuário, quero...</td>
+              <td>Como usuário, gostaria de um programa que me peça um número e, com base nele, me retornar apenas o número escolhido elevado a DOIS</td>
               <td>Alta</td>
               <td>Em andamento</td>
             </tr>
             <tr>
               <td>Sequência de Tribonacci</td>
-              <td>Como usuário, quero...</td>
+              <td>
+                Como usuário, gostaria de ter duas formas de interagir com essa sequência: 1. Exigir o valor da posição de um número dessa sequência 2. Exigir uma lista de                 todos os valores de posições anteriores de uma posição desejada dessa sequência. A sequência deve seguir a seguinte regra: o valor de uma posição da                        sequência é igual a soma das TRÊS posições anteriores, sendo que os dois primeiros valores da sequência são iguais a 1
+              </td>
               <td>Média</td>
               <td>Em andamento</td>
             </tr>
             <tr>
               <td>Sequência de números primos</td>
-              <td>Como usuário, quero...</td>
+              <td>
+                Como usuário, gostaria de ter duas formas de interagir com essa sequência: 1. Exigir o valor da posição de um número dessa sequência 2. Exigir uma lista de                 todos os valores de posições anteriores de uma posição desejada dessa sequência. A sequência deve seguir a seguinte regra: o valor de uma posição da                        sequência só pode ser um número em que é divisível por 1 e por ele mesmo, não havendo resto
+              </td>
               <td>Baixa</td>
               <td>Em andamento</td>
             </tr>
@@ -167,13 +175,66 @@
   </ul>
 </details>
 
-## Backlog da Sprint 3
-| Função | User Story | Prioridade | Status |
-| - | - | - | - |
-| Menu                        | Como usuário, quero... | Alta  | Em andamento |
-| Números triangulares        | Como usuário, quero... | Alta  | Não iniciada |
-| Sequência Geométrica        | Como usuário, quero... | Baixa | Não iniciada |
-| Sequência alternada         | Como usuário, quero... | Média | Não iniciada |
+<!--Sprint 3-->
+<details>
+  <summary>Sprint 3</summary>
+  <ul>
+    <li>
+      <div>
+        <h2>
+          Backlog
+        </h2>
+        <!-- Tabela -->
+        <table>
+          <thead>
+            <tr>
+              <th>Função</th>
+              <th>User Story</th>
+              <th>Prioridade</th>
+              <th>Status</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Menu</td>
+              <td>Como usuário, gostaria de poder interagir com todas as funções do programa, sendo ele a parte principal do programa</td>
+              <td>Alta</td>
+              <td>Em andamento</td>
+            </tr>
+            <tr>
+              <td>Números triangulares</td>
+              <td>Como usuário, gostaria de...</td>
+              <td>Alta</td>
+              <td>Não iniciada</td>
+            </tr>
+            <tr>
+              <td>Sequência alternada</td>
+              <td>
+                Como usuário, gostaria de ter duas formas de interagir com essa sequência: 1. Exigir o valor da posição de um número dessa sequência 2. Exigir uma lista de                 todos os valores de posições anteriores de uma posição desejada dessa sequência. A sequência deve seguir a seguinte regra: ...
+              </td>
+              <td>Média</td>
+              <td>Não iniciada</td>
+            </tr>
+            <tr>
+              <td>Sequência geométrica</td>
+              <td>
+                Como usuário, gostaria de ter duas formas de interagir com essa sequência: 1. Exigir o valor da posição de um número dessa sequência 2. Exigir uma lista de                 todos os valores de posições anteriores de uma posição desejada dessa sequência. A sequência deve seguir a seguinte regra: ...
+              </td>
+              <td>Baixa</td>
+              <td>Não iniciada</td>
+            </tr>
+          </tbody>
+        </table>
+      </div></li>
+    <!--Burndown-->
+    <li>
+      <h2>
+        Burndown
+      </h2>
+      <img src= "" alt= "Burndown3">
+    </li>
+  </ul>
+</details>
   
 ## Código
 
