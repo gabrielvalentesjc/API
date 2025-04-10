@@ -112,12 +112,60 @@
   </ul>
 </details>
 
-| Função | User Story | Prioridade | Status |
-| - | - | - | - |
-| Menu                        | Como usuário, quero... | Alta  | Em andamento |
-| Números quadrados perfeitos | Como usuário, quero... | Alta  | Em andamento |
-| Sequência de números primos | Como usuário, quero... | Baixa | Em andamento |
-| Sequência Tribonacci        | Como usuário, quero... | Média | Em andamento |
+<details>
+  <summary>Sprint 2</summary>
+  <ul>
+    <li>
+      <div>
+        <h2>
+          Backlog
+        </h2>
+        <!-- Tabela -->
+        <table>
+          <thead>
+            <tr>
+              <th>Função</th>
+              <th>User Story</th>
+              <th>Prioridade</th>
+              <th>Status</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Menu</td>
+              <td>Como usuário, quero...</td>
+              <td>Alta</td>
+              <td>Em andamento</td>
+            </tr>
+            <tr>
+              <td>Quadrados perfeitos</td>
+              <td>Como usuário, quero...</td>
+              <td>Alta</td>
+              <td>Em andamento</td>
+            </tr>
+            <tr>
+              <td>Sequência de Tribonacci</td>
+              <td>Como usuário, quero...</td>
+              <td>Média</td>
+              <td>Em andamento</td>
+            </tr>
+            <tr>
+              <td>Sequência de números primos</td>
+              <td>Como usuário, quero...</td>
+              <td>Baixa</td>
+              <td>Em andamento</td>
+            </tr>
+          </tbody>
+        </table>
+      </div></li>
+    <li>
+      <h2>
+        Burndown
+      </h2>
+      <img src= "" alt= "Burndown2">
+    </li>
+  </ul>
+</details>
 
 ## Backlog da Sprint 3
 | Função | User Story | Prioridade | Status |
