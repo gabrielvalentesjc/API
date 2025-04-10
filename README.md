@@ -20,7 +20,6 @@
 
 :small_blue_diamond: [Equipe](#Equipe)
 
-
 ## Descrição
 
 > > Desenvolvimento de Aplicação de Cálculo de Sequências Lógicas. Projeto desenvolvido para trabalho acadêmico no curso de Banco de Dados na FATEC SJC.
@@ -48,36 +47,85 @@
  | Menu                        | Como usuário, quero... | Alta  | Em andamento |
  | Sequência Fibonacci         | Como usuário, quero... | Alta  | Concluída    |
  | Números triangulares        | Como usuário, quero... | Alta  | Não iniciada |
- | Sequência de primos         | Como usuário, quero... | Baixa | Não iniciada |
+ | Sequência de números primos | Como usuário, quero... | Baixa | Em andamento |
  | Números fatoriais           | Como usuário, quero... | Média | Concluída    |
  | Números quadrados perfeitos | Como usuário, quero... | Alta  | Em andamento |
  | Números cúbicos             | Como usuário, quero... | Baixa | Concluída    |
  | Sequência Geométrica        | Como usuário, quero... | Baixa | Não iniciada |
- | Sequência alternada         | Como usuário, quero... | Média | Em andamento |
+ | Sequência alternada         | Como usuário, quero... | Média | Não iniciada |
  | Sequência Tribonacci        | Como usuário, quero... | Média | Em andamento |
 
-## Backlog da Sprint 1
+## Sprints
 
-| Função | User Story | Prioridade | Status |
-| - | - | - | - |
-| Menu                        | Como usuário, quero... | Alta  | Em andamento |
-| Sequência Fibonacci         | Como usuário, quero... | Alta  | Concluída    |
-| Números fatoriais           | Como usuário, quero... | Média | Concluída    |
-| Números cúbicos             | Como usuário, quero... | Baixa | Concluída    |
+<details>
+  <summary>Sprint 1</summary>
+  <ul>
+    <li>
+      <div>
+        <h2>
+          Backlog
+        </h2>
+        <!-- Tabela -->
+        <table>
+          <thead>
+            <tr>
+              <th>Função</th>
+              <th>User Story</th>
+              <th>Prioridade</th>
+              <th>Status</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Menu</td>
+              <td>Como usuário, quero...</td>
+              <td>Alta</td>
+              <td>Movido para a próxima Sprint</td>
+            </tr>
+            <tr>
+              <td>Sequência Fibonacci</td>
+              <td>Como usuário, quero...</td>
+              <td>Alta</td>
+              <td>Concluída</td>
+            </tr>
+            <tr>
+              <td>Números fatoriais</td>
+              <td>Como usuário, quero...</td>
+              <td>Média</td>
+              <td>Concluída</td>
+            </tr>
+            <tr>
+              <td>Números Cúbicos</td>
+              <td>Como usuário, quero...</td>
+              <td>Baixa</td>
+              <td>Concluída</td>
+            </tr>
+          </tbody>
+        </table>
+      </div></li>
+    <li>
+      <h2>
+        Burndown
+      </h2>
+      <img src= "https://github.com/user-attachments/assets/3223b677-cd2c-4bde-ad81-00c20a792f91" alt= "Captura de tela 2025-03-30 224050">
+    </li>
+  </ul>
+</details>
 
-## Backlog da Sprint 2
 | Função | User Story | Prioridade | Status |
 | - | - | - | - |
 | Menu                        | Como usuário, quero... | Alta  | Em andamento |
 | Números quadrados perfeitos | Como usuário, quero... | Alta  | Em andamento |
-| Sequência alternada         | Como usuário, quero... | Média | Em andamento |
+| Sequência de números primos | Como usuário, quero... | Baixa | Em andamento |
 | Sequência Tribonacci        | Como usuário, quero... | Média | Em andamento |
-  
 
-## Burndown
-
-![Captura de tela 2025-03-30 224050](https://github.com/user-attachments/assets/3223b677-cd2c-4bde-ad81-00c20a792f91)
-
+## Backlog da Sprint 3
+| Função | User Story | Prioridade | Status |
+| - | - | - | - |
+| Menu                        | Como usuário, quero... | Alta  | Em andamento |
+| Números triangulares        | Como usuário, quero... | Alta  | Não iniciada |
+| Sequência Geométrica        | Como usuário, quero... | Baixa | Não iniciada |
+| Sequência alternada         | Como usuário, quero... | Média | Não iniciada |
   
 ## Código
 
@@ -87,7 +135,7 @@
 
  | Função      | Nome                                     | LinkedIn | Github |
  | -           | -                                        | -        | -      |
- |Product Owner| Leonardo Amon Sumiyoshi Hashimoto        | [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)]()|  [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)]() |
+ |Product Owner| Leonardo Amon Sumiyoshi Hashimoto        | [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)]()|  [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/Leonardo1022) |
  |Scrum Master | Gabriel Valente Belarmino                | [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)]() | [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)]()|
  |Team Member  | Maria Eduarda Teixeira Miller de Oliveira| [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)]() | [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)]()|
  |Team Member  | Natália Pereira da Silva                 | [![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)]() | [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)]()|
