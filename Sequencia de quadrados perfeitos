@@ -1,0 +1,34 @@
+lgoritmo "Sequencia de quadrados perfeitos"   '
+
+var
+
+   quadrado : real
+   i, n: inteiro
+
+Inicio
+   escreval("Informe um número para exibirmos a lista: ")
+   leia (n)
+
+   limpatela
+
+
+   se (n<0) ou (n>210000) entao
+      escreval ("Operação impossível, informe um número inteiro maior ou igual a 0")
+      leia (n)
+      limpatela
+   fimse
+   
+   para i de 1 ate n faca
+      quadrado <-(i*i)
+
+   fimpara
+   
+   escreval ("O resultado da sua operação é:")
+
+   escreval( quadrado)
+
+
+
+
+
+Fimalgoritmo
