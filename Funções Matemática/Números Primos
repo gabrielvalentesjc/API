@@ -1,7 +1,7 @@
 Algoritmo "numeros primos"
 
 Var
-   posicao, cont, numero  : inteiro
+   posicao, cont, numero  : real
    resposta : caractere
 
 
