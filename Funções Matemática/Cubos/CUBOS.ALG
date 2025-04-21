@@ -1,6 +1,6 @@
 Algoritmo "cubos"
 var
-      i, numero, resultado: inteiro
+      i, numero, resultado: real
 inicio
 
    Limpatela
