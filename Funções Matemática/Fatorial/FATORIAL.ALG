@@ -1,6 +1,6 @@
 Algoritmo "fatorial"
 var
-   n,fatorial1,c, fatorial2: inteiro
+   n,fatorial1,c, fatorial2: real
 
 inicio
 
