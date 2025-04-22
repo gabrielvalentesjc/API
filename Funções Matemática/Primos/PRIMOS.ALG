@@ -1,8 +1,8 @@
-Algoritmo "primos"
+Algoritmo "numeros primos"
 
 Var
    posicao, cont, numero  : inteiro
-   resposta : caractere
+   resposta : inteiro
 
 
 funcao primos (n: inteiro) :logico
@@ -38,35 +38,42 @@ Inicio
    escreval("")
 
 
-   escreva("Voce deseja: 1)Ver um numero primo de uma posicao ou 2) Ver uma sequencia de numeros primos")
+   escreval("Voce deseja:")
+   escreval("1)Ver um numero primo de uma posicao")
+   escreval("2) Ver uma sequencia de numeros primos")
    leia (resposta)
 
-   escreva("Digite a posição desejada: ")
-   leia(posicao)
-
-
-   cont <- 0
-   numero <- 1
-
-   se resposta = "1" entao
-      enquanto cont < posicao faca
-         numero <- numero + 1 faca
-         se primos(numero) entao
-            cont <- cont + 1
-         fimse
-      fimenquanto
-      
-      escreval ("O numero primo dessa posicao e: ", numero)
-
+   se (resposta <> 1)e(resposta <> 2) entao
+      escreval("opcao invalida")
    senao
-      escreval("A sequencia de numeros primos ate a posicao ", posicao, " e: ", numero)
-      enquanto cont < posicao faca
-         numero <- numero + 1
-         se primos(numero) entao
-            cont <- cont + 1
-            escreva(numero, " ")
-         fimse
-      fimenquanto
+      escreval("Digite a posiÃ§Ã£o desejada: ")
+      leia(posicao)
+
+
+      cont <- 0
+      numero <- 1
+
+      se resposta = 1 entao
+
+         enquanto cont < posicao faca
+            numero <- numero + 1
+            se primos(numero) entao
+               cont <- cont + 1
+            fimse
+         fimenquanto
+
+         escreval ("O numero primo dessa posicao e: ", numero)
+
+      senao
+         escreval("A sequencia de numeros primos ate a posicao ", posicao, " e: ")
+         enquanto cont < posicao faca
+            numero <- numero + 1
+            se primos(numero) entao
+               cont <- cont + 1
+               escreval(numero)
+            fimse
+         fimenquanto
+      fimse
    fimse
 
 Fimalgoritmo
