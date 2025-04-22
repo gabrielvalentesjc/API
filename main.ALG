@@ -52,7 +52,7 @@ procedimento "Tribonacci"
 
 Var
    n, i: inteiro
-   t1, t2, t3, tn: real
+   t1, t2, t3, tn, resposta: real
 
 Inicio
 
@@ -66,28 +66,52 @@ Inicio
    
    escreval(" ")
    
+   escreval("Você deseja:")
+      escreval(" ")
+   escreval("1) Ver um número Tribonacci especifico")
+      escreval(" ")
+   escreval("2) Ver uma sequência de Tribonacci")
+      escreval(" ")
+   escreva("Digite sua opção (1 ou 2): ")
+   leia(resposta)
+   
+   Limpatela
+   
+   escrevaL("===========================")
+   escreval("|                         |")
+   escrevaL("| SEQUENCIA DE TRIBONACCI |")
+   escreval("|                         |")
+   escrevaL("===========================")
+
+   escreval(" ")
+   
    Escreva(" Digite o número de termos da sequência Tribonacci: ")
    Leia(n)
-   
-   escreval(" ")
 
    t1 <- 0
    t2 <- 1
    t3 <- 1
 
-   Se n >= 1 Entao
-      Escreva(t1, " ")
-   FimSe
-   Se n >= 2 Entao
-      Escreva(t2, " ")
-   FimSe
-   Se n >= 3 Entao
-      Escreva(t3, " ")
-   FimSe
+   SE resposta = 2 ENTAO
+      Se n >= 1 Entao
+         Escreva(t1, " ")
+      FimSe
+      Se n >= 2 Entao
+         Escreva(t2, " ")
+      FimSe
+      Se n >= 3 Entao
+         Escreva(t3, " ")
+      FimSe
+   FIMSE
 
    Para i de 4 ate n passo 1 faca
       tn <- t1 + t2 + t3
-      Escreva(tn, " ")
+
+      SE resposta = 2 ENTAO
+         escreval(" ")
+         Escreva(tn, " ")
+      FIMSE
+
       t1 <- t2
       t2 <- t3
       t3 <- tn
@@ -108,7 +132,7 @@ Inicio
    FimSe
    
    Escreval()
-   Escreval(" Resultado final: ", tn)
+   Escreval(" Numero Tribinacci: ", tn)
    
    escreval(" ")
 
@@ -334,95 +358,57 @@ Inicio
       escreval("| um número de 1-9 ou 0 para sair: |")
       escreval("====================================")
       leia(valor)
-
-      escolha valor
-         caso "0"
-            continua <- FALSO
-
-         caso "1"
-            condicao <- VERDADEIRO
+      
+      condicao <- VERDADEIRO
             enquanto condicao faca
-               Fibonacci
-               escreva(" Deseja continuar? (Sair = 0 / Continuar = qualquer tecla): ")
-               leia(condicional)
-               se condicional = "0" entao
-                  condicao <- FALSO
-               fimse
-            fimenquanto
 
-         caso "2"
-            condicao <- VERDADEIRO
-            enquanto condicao faca
-               Tribonacci
-               escreva(" Deseja continuar? (Sair = 0 / Continuar = qualquer tecla): ")
-               leia(condicional)
-               se condicional = "0" entao
-                  condicao <- FALSO
-               fimse
-            fimenquanto
+               escolha valor
+                  caso "0"
+                     continua <- FALSO
 
-         caso "3"
-            condicao <- VERDADEIRO
-            enquanto condicao faca
-               quadrados
-               escreva(" Deseja continuar? (Sair = 0 / Continuar = qualquer tecla): ")
-               leia(condicional)
-               se condicional = "0" entao
-                  condicao <- FALSO
-               fimse
-            fimenquanto
+                  caso "1"
+                        Fibonacci
 
-         caso "4"
-            condicao <- VERDADEIRO
-            enquanto condicao faca
-               cubos
-               escreva(" Deseja continuar? (Sair = 0 / Continuar = qualquer tecla): ")
-               leia(condicional)
-               se condicional = "0" entao
-                  condicao <- FALSO
-               fimse
-            fimenquanto
+                  caso "2"
+                        Tribonacci
 
-         caso "5"
-            escreval("Sequência Geométrica ainda não implementada.")
-            escreval("Pressione ENTER para continuar...")
+                  caso "3"
+                        quadrados
+
+                  caso "4"
+                        cubos
+
+                  caso "5"
+                     escreval("Sequência Geométrica ainda não implementada.")
+
+                  caso "6"
+                     escreval("Sequência Alternada ainda não implementada.")
+
+                  caso "7"
+                     escreval("Sequência Triangular ainda não implementada.")
+
+                  caso "8"
+                        fatorial
+
+                  caso "9"
+                        primo
+
+                  outrocaso
+                     escreval(" Opção inválida. Pressione ENTER para continuar...")
+                     leia(condicional)
+
+               fimescolha
+      
+         SE continua = VERDADEIRO Entao
+            escreva(" Deseja continuar? (Sair = 0 / Continuar = qualquer tecla): ")
             leia(condicional)
-
-         caso "6"
-            escreval("Sequência Alternada ainda não implementada.")
-            escreval("Pressione ENTER para continuar...")
-            leia(condicional)
-
-         caso "7"
-            escreval("Sequência Triangular ainda não implementada.")
-            escreval("Pressione ENTER para continuar...")
-            leia(condicional)
-
-         caso "8"
-            condicao <- VERDADEIRO
-            enquanto condicao faca
-               fatorial
-               escreva(" Deseja continuar? (Sair = 0 / Continuar = qualquer tecla): ")
-               leia(condicional)
                se condicional = "0" entao
-                  condicao <- FALSO
+                   condicao <- FALSO
                fimse
-            fimenquanto
+         SENAO
+              condicao <- FALSO
+         fimse
 
-         caso "9"
-            condicao <- VERDADEIRO
-            enquanto condicao faca
-               primo
-               escreva(" Deseja continuar? (Sair = 0 / Continuar = qualquer tecla): ")
-               leia(condicional)
-               se condicional = "0" entao
-                  condicao <- FALSO
-               fimse
-            fimenquanto
-
-         outrocaso
-            escreval(" Opção inválida. Pressione ENTER para continuar...")
-            leia(condicional)
-      fimescolha
+         fimenquanto
    fimenquanto
 Fimalgoritmo
