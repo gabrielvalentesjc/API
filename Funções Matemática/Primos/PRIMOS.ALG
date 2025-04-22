@@ -1,8 +1,8 @@
 Algoritmo "numeros primos"
 
 Var
-   posicao, cont, numero  : inteiro
-   resposta : inteiro
+   posicao, cont, numero  : real
+   resposta : real
 
 
 funcao primos (n: inteiro) :logico
