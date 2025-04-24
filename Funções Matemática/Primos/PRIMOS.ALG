@@ -49,7 +49,7 @@ limpatela
    se (resposta <> 1)e(resposta <> 2) entao
       escreval("opcao invalida")
    senao
-      escreval("Digite um valor inteiro =>")
+      escreval("Digite um valor inteiro: Maximo 50 =>")
       leia(posicao)
 
   se (posicao < 0) ou (posicao > 50) entao
