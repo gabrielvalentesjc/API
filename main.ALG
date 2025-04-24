@@ -1,6 +1,6 @@
 procedimento "Fibonacci"
 Var
-   f1, f2, f3, limite, cont: Inteiro
+   f1, f2, f3, limite, cont: real
 
 Inicio
 
@@ -14,10 +14,10 @@ escrevaL("===========================")
 
 escreval(" ")
 
-   escreva (" Digite um limite : Maximo 47 => ")
+   escreva (" Digite um limite : Maximo 92 => ")
    leia (limite)
    
-   se limite < 48 entao
+    se limite < 92 entao
    
       escreval(" ")
       escreva(" Sequência:")
@@ -42,7 +42,7 @@ escreval(" ")
 
       escreval(" ")
    senao
-      escreval("Não é possivel calcular")
+     escreval("Não é possivel calcular")
    fimse
 
 Fimprocedimento
@@ -51,8 +51,7 @@ Fimprocedimento
 procedimento "Tribonacci"
 
 Var
-   n, i: inteiro
-   t1, t2, t3, tn, resposta: real
+   n, i, t1, t2, t3, tn, resposta: real
 
 Inicio
 
@@ -85,8 +84,10 @@ Inicio
 
    escreval(" ")
    
-   Escreva(" Digite o número de termos da sequência Tribonacci: ")
+   escreva (" Digite um limite : Maximo 59 =>  ")
    Leia(n)
+   
+    se n < 60 entao
 
    t1 <- 0
    t2 <- 1
@@ -104,7 +105,8 @@ Inicio
       FimSe
    FIMSE
 
-   Para i de 4 ate n passo 1 faca
+   i <- 4
+   ENQUANTO i <= n faca
       tn <- t1 + t2 + t3
 
       SE resposta = 2 ENTAO
@@ -115,7 +117,9 @@ Inicio
       t1 <- t2
       t2 <- t3
       t3 <- tn
-   FimPara
+      
+      i <- i + 1
+   Fimenquanto
    
    escreval(" ")
 
@@ -135,6 +139,10 @@ Inicio
    Escreval(" Numero Tribinacci: ", tn)
    
    escreval(" ")
+   
+     senao
+     escreval(" Não é possivel calcular")
+   fimse
 
 Fimprocedimento
 
@@ -142,9 +150,7 @@ procedimento "quadrados"   '
 
 var
 
-   quadrado : real
-   i, n: inteiro
-
+   numero, resultado : real
 Inicio
 
    Limpatela
@@ -155,33 +161,29 @@ Inicio
    escreval("|                         |")
    escrevaL("===========================")
    
-   escreva(" Informe um número para exibirmos a lista: ")
-   leia (n)
-   
-   escreval(" ")
+   escreva(" Digite um valor inteiro: Maximo 31622776 => ")
+   leia(numero)
 
-   se (n<0) ou (n>210000) entao
-      escreval (" Operação impossível, informe um número inteiro maior ou igual a 0")
-      leia (n)
-      limpatela
-   fimse
-
-   para i de 1 ate n faca
-      quadrado <-(i*i)
-
-   fimpara
-
-   escreval (" O resultado da sua operação é:")
-
-   escreval( quadrado)
-   
+   se numero <= 31622776 entao
       escreval(" ")
+
+      se numero > 0 entao
+      resultado <- numero * numero
+         escreval(" O valor de", numero , " ao quadrado é",resultado)
+      senao
+         escreval(" Posição inválida.")
+      fimse
+
+      escreval(" ")
+   senao
+     escreval(" Não é possivel calcular.")
+   fimse
 
 Fimprocedimento
 
 procedimento "cubos"
 var
-      i, numero, resultado: inteiro
+   numero, resultado: real
 inicio
 
    Limpatela
@@ -192,10 +194,10 @@ inicio
    escreval("|                         |")
    escrevaL("===========================")
 
-      escreva(" Digite um valor inteiro: Maximo 6008 => ")
+      escreva(" Digite um valor inteiro: Maximo 99999 => ")
    leia(numero)
-   
-   se numero < 6009 entao
+
+   se numero <= 99999 entao
       escreval(" ")
 
       se numero > 0 entao
@@ -207,14 +209,14 @@ inicio
 
       escreval(" ")
    senao
-      escreval(" Não é possivel calcular.")
+     escreval(" Não é possivel calcular.")
    fimse
    
 fimprocedimento
 
 procedimento "fatorial"
 var
-   n,fatorial1,c, fatorial2: inteiro
+   n,fatorial1,c, fatorial2: real
 
 inicio
 
@@ -228,14 +230,14 @@ inicio
 
    fatorial1<-1
  
-   escreva(" Digite um valor inteiro: Maximo 16 => ")
+   escreva(" Digite um valor inteiro: Maximo 17 => ")
    leia(n)
    
-   enquanto (n>16) faca
+   enquanto (n>17) faca
    
    Limpatela
    
-         escreval (" Não é possivel calcular. Digite um valor menor que 17.")
+         escreval (" Não é possivel calcular. Digite um valor menor que 18.")
          
          escreval(" ")
          
@@ -244,11 +246,14 @@ inicio
 fimenquanto
    
    escreval(" ")
-
-   para c de n ate 1 passo -1 faca
+   
+   c <- n
+   enquanto c <> 1 faca
     fatorial2<-fatorial1
     fatorial1<-fatorial1*c
-   fimpara
+    
+    c <- c - 1
+   fimenquanto
 
    escreval(" Fatorial de " , n, " é ", fatorial1)
  
@@ -256,22 +261,19 @@ fimenquanto
  escreval(" ")
 fimprocedimento
 
-procedimento "primo"
-
-Var
-   posicao, cont, numero  : inteiro
-   resposta : caractere
-
 funcao primos (n: inteiro) : logico
 var
    i, divisores : inteiro
 inicio
    divisores <- 0
-   para i de 1 ate n faca
+   i <- 1
+   enquanto i <= n faca
       se n % i = 0 entao
          divisores <- divisores + 1
       fimse
-   fimpara
+
+      i <- i + 1
+   fimenquanto
 
    se divisores = 2 entao
       retorne verdadeiro
@@ -279,6 +281,12 @@ inicio
       retorne falso
    fimse
 fimfuncao
+
+procedimento "primo"
+
+Var
+   posicao, cont, numero  : real
+   resposta : caractere
 
 Inicio
    Limpatela
@@ -402,6 +410,11 @@ Inicio
          SE continua = VERDADEIRO Entao
             escreva(" Deseja continuar? (Sair = 0 / Continuar = qualquer tecla): ")
             leia(condicional)
+
+            Se condicional = "" então
+               condicional <- "1"
+            fimse
+            
                se condicional = "0" entao
                    condicao <- FALSO
                fimse
