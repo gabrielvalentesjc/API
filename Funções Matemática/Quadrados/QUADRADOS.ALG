@@ -5,11 +5,9 @@ var
 
    quadrado : real
    i, n: inteiro
-   continuar: caractere
 
 Inicio
 
-repita
    escreval("Informe um número para que seja exibido o quadrado perfeito dele: Maximo 210000 => ")
    leia (n)
 
@@ -28,11 +26,5 @@ repita
    fimpara
    
    escreval ("O quadrado perfeito de",n," é",quadrado)
-   
-   escreval ("Deseja fazer outra operação? (s/n)")
-   leia (continuar)
-   ate (continuar = "n") ou (continuar = "N")
-
-
 
 Fimalgoritmo
