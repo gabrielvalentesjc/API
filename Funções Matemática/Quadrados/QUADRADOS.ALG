@@ -17,7 +17,7 @@ repita
 
 
    se (n<0) ou (n>210000) entao
-      escreval ("Operação impossível, informe um número inteiro maior ou igual a 0")
+      escreval ("Operação impossível, informe um número inteiro maior ou igual 0 e menor que 210000 ")
       leia (n)
       limpatela
    fimse
