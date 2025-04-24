@@ -46,7 +46,7 @@ Inicio
    se (resposta <> 1)e(resposta <> 2) entao
       escreval("opcao invalida")
    senao
-      escreval("Digite a posição desejada: ")
+      escreval("Digite um valor inteiro =>")
       leia(posicao)
 
 
