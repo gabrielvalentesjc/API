@@ -1,21 +1,23 @@
 Algoritmo "Sequencia de quadrados perfeitos"   '
-// Disciplina   : [Linguagem e Lógica de Programação] 
-// Professor   : Antonio Carlos Nicolodi 
+
 
 var
 
    quadrado : real
    i, n: inteiro
+   continuar: caractere
 
 Inicio
-   escreval("Informe um número para exibirmos a lista: ")
+
+repita
+   escreval("Informe um nÃºmero para que seja exibido o quadrado perfeito dele: ")
    leia (n)
 
    limpatela
 
 
    se (n<0) ou (n>210000) entao
-      escreval ("Operação impossível, informe um número inteiro maior ou igual a 0")
+      escreval ("OperaÃ§Ã£o impossÃ­vel, informe um nÃºmero inteiro maior ou igual a 0")
       leia (n)
       limpatela
    fimse
@@ -25,11 +27,11 @@ Inicio
 
    fimpara
    
-   escreval ("O resultado da sua operação é:")
-
-   escreval( quadrado)
-
-
+   escreval ("O quadrado perfeito de",n," Ã©",quadrado)
+   
+   escreval ("Deseja fazer outra operaÃ§Ã£o? (s/n)")
+   leia (continuar)
+   ate (continuar = "n") ou (continuar = "N")
 
 
 
