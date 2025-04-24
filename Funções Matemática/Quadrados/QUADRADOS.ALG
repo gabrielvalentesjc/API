@@ -10,7 +10,7 @@ var
 Inicio
 
 repita
-   escreval("Informe um número para que seja exibido o quadrado perfeito dele: ")
+   escreval("Informe um número para que seja exibido o quadrado perfeito dele: Maximo 210000 => ")
    leia (n)
 
    limpatela
