@@ -43,11 +43,20 @@ Inicio
    escreval("2) Ver uma sequencia de numeros primos")
    leia (resposta)
 
+
+limpatela
+
    se (resposta <> 1)e(resposta <> 2) entao
       escreval("opcao invalida")
    senao
       escreval("Digite um valor inteiro =>")
       leia(posicao)
+
+  se (posicao < 0) ou (posicao > 50) entao
+      escreval (" Informe um número inteiro menor do que o anterior e maior ou igual a 0")
+      leia (posicao)
+      limpatela
+   fimse
 
 
       cont <- 0
