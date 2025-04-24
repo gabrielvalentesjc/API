@@ -21,7 +21,7 @@ inicio
 
    Limpatela
 
-         escreval (" Não é possivel calcular. Digite um valor menor que 17.")
+         escreval (" Operação impossível, informe um número inteiro menor que 17.")
 
          escreval(" ")
 
