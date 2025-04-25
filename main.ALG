@@ -4,27 +4,27 @@ Var
 
 Inicio
 
-Limpatela
+   Limpatela
 
-escrevaL("===========================")
-escreval("|                         |")
-escrevaL("| SEQUENCIA DE FIBONACCI  |")
-escreval("|                         |")
-escrevaL("===========================")
+   escrevaL("===========================")
+   escreval("|                         |")
+   escrevaL("| SEQUENCIA DE FIBONACCI  |")
+   escreval("|                         |")
+   escrevaL("===========================")
 
-escreval(" ")
+   escreval(" ")
 
    escreva (" Digite um limite : Maximo 92 => ")
    leia (limite)
-   
-    se limite < 92 entao
-   
-      escreval(" ")
-      escreva(" Sequência:")
 
-        f1 <--1
-        f2 <-1
-        cont <-0
+   se limite < 92 entao
+
+      escreval(" ")
+      escreva(" SequÃªncia:")
+
+      f1 <--1
+      f2 <-1
+      cont <-0
       enquanto (cont<limite)faca
          f3<-f1+f2
          f1<-f2
@@ -42,7 +42,7 @@ escreval(" ")
 
       escreval(" ")
    senao
-     escreval("Não é possivel calcular")
+      escreval("NÃ£o Ã© possivel calcular")
    fimse
 
 Fimprocedimento
@@ -62,92 +62,99 @@ Inicio
    escrevaL("| SEQUENCIA DE TRIBONACCI |")
    escreval("|                         |")
    escrevaL("===========================")
-   
+
    escreval(" ")
-   
-   escreval("Você deseja:")
-      escreval(" ")
-   escreval("1) Ver um número Tribonacci especifico")
-      escreval(" ")
-   escreval("2) Ver uma sequência de Tribonacci")
-      escreval(" ")
-   escreva("Digite sua opção (1 ou 2): ")
+
+   escreval("VocÃª deseja:")
+   escreval(" ")
+   escreval("1) Ver um nÃºmero Tribonacci especifico")
+   escreval(" ")
+   escreval("2) Ver uma sequÃªncia de Tribonacci")
+   escreval(" ")
+   escreva("Digite sua opÃ§Ã£o (1 ou 2): ")
    leia(resposta)
-   
-   Limpatela
-   
-   escrevaL("===========================")
-   escreval("|                         |")
-   escrevaL("| SEQUENCIA DE TRIBONACCI |")
-   escreval("|                         |")
-   escrevaL("===========================")
+   se (resposta > 2) ou (resposta < 1) entao
+      escreval("OpÃ§Ã£o invÃ¡lida")
 
-   escreval(" ")
-   
-   escreva (" Digite um limite : Maximo 59 =>  ")
-   Leia(n)
-   
-    se n < 60 entao
+   senao
+      se resposta = 1 entao
+         escreval("")
+         escreva("Digite a posiÃ§Ã£o desejada: maximo 59 =>  ")
+         leia(n)
+      fimse
 
-   t1 <- 0
-   t2 <- 1
-   t3 <- 1
-
-   SE resposta = 2 ENTAO
-      Se n >= 1 Entao
-         Escreva(t1, " ")
-      FimSe
-      Se n >= 2 Entao
-         Escreva(t2, " ")
-      FimSe
-      Se n >= 3 Entao
-         Escreva(t3, " ")
-      FimSe
-   FIMSE
-
-   i <- 4
-   ENQUANTO i <= n faca
-      tn <- t1 + t2 + t3
-
-      SE resposta = 2 ENTAO
+      se resposta = 2 entao
          escreval(" ")
-         Escreva(tn, " ")
-      FIMSE
+         escreva (" Digite um limite : Maximo 59 =>  ")
+         Leia(n)
+      fimse
 
-      t1 <- t2
-      t2 <- t3
-      t3 <- tn
-      
-      i <- i + 1
-   Fimenquanto
-   
-   escreval(" ")
+      se n < 60 entao
 
-   Se n = 1 Entao
-      tn <- t1
-   Senao
-      Se n = 2 Entao
-         tn <- t2
-      Senao
-         Se n = 3 Entao
-            tn <- t3
-         FimSe
-      FimSe
-   FimSe
-   
-   Escreval()
-   Escreval(" Numero Tribinacci: ", tn)
-   
-   escreval(" ")
-   
-     senao
-     escreval(" Não é possivel calcular")
+         t1 <- 0
+         t2 <- 1
+         t3 <- 1
+
+         SE resposta = 2 ENTAO
+
+            Se n >= 1 Entao
+               Escreval(t1)
+            FimSe
+
+            Se n >= 2 Entao
+               Escreval(t2)
+            FimSe
+
+            Se n >= 3 Entao
+               Escreval(t3)
+            fimse
+         fimse
+
+         i <- 4
+         ENQUANTO i <= n faca
+            tn <- t1 + t2 + t3
+
+            se resposta = 2 entao
+               Escreval(tn)
+            fimse
+
+            t1 <- t2
+            t2 <- t3
+            t3 <- tn
+
+            i <- i + 1
+         Fimenquanto
+
+         escreval(" ")
+
+         Se n = 1 Entao
+            tn <- t1
+         Senao
+            Se n = 2 Entao
+               tn <- t2
+            Senao
+               Se n = 3 Entao
+                  tn <- t3
+               Fimse
+            Fimse
+         Fimse
+
+         se resposta = 1 entao
+            Escreval()
+            Escreval(" Numero Tribinacci: ", tn)
+            escreval(" ")
+         fimse
+
+      senao
+         escreval(" NÃ£o Ã© possivel calcular")
+         escreval(" ")
+      fimse
    fimse
 
 Fimprocedimento
 
+//Quadrados
 procedimento "quadrados"   '
-
 var
 
    numero, resultado : real
@@ -160,105 +167,89 @@ Inicio
    escrevaL("| QUADRADOS PERFEITOS     |")
    escreval("|                         |")
    escrevaL("===========================")
-   
+
    escreva(" Digite um valor inteiro: Maximo 31622776 => ")
    leia(numero)
 
-   se numero <= 31622776 entao
+   se (numero > 0) e (numero < 31622777) entao
       escreval(" ")
 
-      se numero > 0 entao
       resultado <- numero * numero
-         escreval(" O valor de", numero , " ao quadrado é",resultado)
-      senao
-         escreval(" Posição inválida.")
-      fimse
-
+      escreval(" O valor de", numero , " ao quadrado Ã©",resultado)
       escreval(" ")
-   senao
-     escreval(" Não é possivel calcular.")
-   fimse
 
+   senao
+      escreval(" NÃ£o Ã© possivel calcular. Digite um valor maior que 0 e menor que 31622777.")
+   fimse
 Fimprocedimento
 
+//Cubos
 procedimento "cubos"
 var
    numero, resultado: real
 inicio
 
    Limpatela
-   
+
    escrevaL("===========================")
    escreval("|                         |")
    escrevaL("| CUBOS                   |")
    escreval("|                         |")
    escrevaL("===========================")
 
-      escreva(" Digite um valor inteiro: Maximo 99999 => ")
+   escreva(" Digite um valor inteiro: Maximo 99999 => ")
    leia(numero)
 
-   se numero <= 99999 entao
+   se (numero > 0) e (numero < 100000) entao
       escreval(" ")
 
-      se numero > 0 entao
       resultado <- numero * numero * numero
-         escreval(" O valor de", numero , " ao cubo é",resultado)
-      senao
-         escreval(" Posição inválida.")
-      fimse
-
+      escreval(" O valor de", numero , " ao cubo Ã©",resultado)
       escreval(" ")
+
    senao
-     escreval(" Não é possivel calcular.")
+      escreval("NÃ£o Ã© possivel calcular. Digite um valor maior que 0 e menor que 100000.")
    fimse
-   
 fimprocedimento
 
+//Fatorial
 procedimento "fatorial"
 var
    n,fatorial1,c, fatorial2: real
 
 inicio
 
- Limpatela
- 
- escrevaL("===========================")
- escreval("|                         |")
- escrevaL("| FATORIAL                |")
- escreval("|                         |")
- escrevaL("===========================")
+   Limpatela
+
+   escrevaL("===========================")
+   escreval("|                         |")
+   escrevaL("| FATORIAL                |")
+   escreval("|                         |")
+   escrevaL("===========================")
 
    fatorial1<-1
- 
+
    escreva(" Digite um valor inteiro: Maximo 17 => ")
    leia(n)
-   
-   enquanto (n>17) faca
-   
-   Limpatela
-   
-         escreval (" Não é possivel calcular. Digite um valor menor que 18.")
-         
-         escreval(" ")
-         
-         escreva(" Digite outro valor: ")
-         leia (n)
-fimenquanto
-   
-   escreval(" ")
-   
-   c <- n
-   enquanto c <> 1 faca
-    fatorial2<-fatorial1
-    fatorial1<-fatorial1*c
-    
-    c <- c - 1
-   fimenquanto
 
-   escreval(" Fatorial de " , n, " é ", fatorial1)
- 
+   se (n > 0) e (n < 18) entao
+      escreval(" ")
 
- escreval(" ")
+      c <- n
+      enquanto c <> 1 faca
+         fatorial2<-fatorial1
+         fatorial1<-fatorial1*c
+
+         c <- c - 1
+      fimenquanto
+      escreval(" Fatorial de " , n, " Ã© ", fatorial1)
+      escreval(" ")
+
+   senao
+      Limpatela
+
+      escreval ("NÃ£o Ã© possivel calcular. Digite um valor maior que 0 e menor que 18.")
+   fimse
 fimprocedimento
 
 funcao primos (n: inteiro) : logico
@@ -282,60 +273,64 @@ inicio
    fimse
 fimfuncao
 
+//Primos
 procedimento "primo"
 
 Var
    posicao, cont, numero  : real
-   resposta : caractere
+   resposta : inteiro
 
 Inicio
    Limpatela
 
    escreval("===========================")
    escreval("|                         |")
-   escreval("|     Números Primos      |")
+   escreval("|     NÃšMEROS PRIMOS      |")
    escreval("|                         |")
    escreval("===========================")
    escreval("")
-
-   escreval("Você deseja:")
-      escreval(" ")
-   escreval("1) Ver um número primo por posição")
-      escreval(" ")
-   escreval("2) Ver uma sequência de números primos")
-      escreval(" ")
-   escreva("Digite sua opção (1 ou 2): ")
+   escreval("VocÃª deseja:")
+   escreval(" ")
+   escreval("1) Ver um nÃºmero primo por posiÃ§Ã£o")
+   escreval(" ")
+   escreval("2) Ver uma sequÃªncia de nÃºmeros primos")
+   escreval(" ")
+   escreva("Digite sua opÃ§Ã£o (1 ou 2): ")
    leia(resposta)
-   
-      escreval(" ")
-
-   escreva("Digite a posição desejada: ")
-   leia(posicao)
-
-   cont <- 0
-   numero <- 1
-
-   se resposta = "1" entao
-      enquanto cont < posicao faca
-         numero <- numero + 1
-         se primos(numero) entao
-            cont <- cont + 1
-         fimse
-      fimenquanto
-      escreval("O número primo dessa posição é: ", numero)
+   se (resposta > 2) ou (resposta < 1) entao
+      escreval("OpÃ§Ã£o invÃ¡lida")
    senao
-      escreval("A sequência de números primos até a posição ", posicao, " é:")
-      enquanto cont < posicao faca
-         numero <- numero + 1
-         se primos(numero) entao
-            cont <- cont + 1
-            escreva(numero, " ")
-         fimse
-      fimenquanto
-      escreval()
+      escreva("Digite a posiÃ§Ã£o desejada: ")
+      leia(posicao)
+
+      cont <- 0
+      numero <- 1
+
+      escolha resposta
+
+      caso 1
+         enquanto cont < posicao faca
+            numero <- numero + 1
+            se primos(numero) entao
+               cont <- cont + 1
+            fimse
+         fimenquanto
+         escreval("O nÃºmero primo dessa posiÃ§Ã£o Ã©: ", numero)
+
+      caso 2
+         escreval("A sequÃªncia de nÃºmeros primos atÃ© a posiÃ§Ã£o ", posicao, " Ã©:")
+         enquanto cont < posicao faca
+            numero <- numero + 1
+            se primos(numero) entao
+               cont <- cont + 1
+               escreval (numero)
+            fimse
+         fimenquanto
+         escreval()
+
+         escreval(" ")
+      fimescolha
    fimse
-   
-      escreval(" ")
 
 Fimprocedimento
 
@@ -350,78 +345,78 @@ Inicio
 
    enquanto continua faca
       Limpatela
-      escreval("====================================")
-      escreval("| Sistema de operações numéricos   |")
-      escreval("| 1 - Fibonacci         Funcionando|")
-      escreval("| 2 - Tribonacci        Funcionando|")
-      escreval("| 3 - Quadrado Perfeito Funcionando|")
-      escreval("| 4 - Cubos             Funcionando|")
-      escreval("| 5 - Geométrica        Em breve   |")
-      escreval("| 6 - Alternada         Em breve   |")
-      escreval("| 7 - Triangular        Em breve   |")
-      escreval("| 8 - Fatorial          Funcionando|")
-      escreval("| 9 - Números Primos    Funcionando|")
-      escreval("====================================")
-      escreval("| Selecione uma operação digitando |")
-      escreval("| um número de 1-9 ou 0 para sair: |")
-      escreval("====================================")
+      escreval("======================================")
+      escreval("| Sistema de operaÃ§Ãµes numÃ©ricos     |")
+      escreval("| 1 - Fibonacci           Funcionando|")
+      escreval("| 2 - Tribonacci          Funcionando|")
+      escreval("| 3 - Quadrados Perfeitos Funcionando|")
+      escreval("| 4 - Cubos               Funcionando|")
+      escreval("| 5 - GeomÃ©trica          Em breve   |")
+      escreval("| 6 - Alternada           Em breve   |")
+      escreval("| 7 - Triangular          Em breve   |")
+      escreval("| 8 - Fatorial            Funcionando|")
+      escreval("| 9 - NÃºmeros Primos      Funcionando|")
+      escreval("======================================")
+      escreval("|  Selecione uma operaÃ§Ã£o digitando  |")
+      escreval("|  um nÃºmero de 1-9 ou 0 para sair:  |")
+      escreval("======================================")
       leia(valor)
-      
+
       condicao <- VERDADEIRO
-            enquanto condicao faca
+      enquanto condicao faca
 
-               escolha valor
-                  caso "0"
-                     continua <- FALSO
+         escolha valor
+         caso "0"
+            continua <- FALSO
 
-                  caso "1"
-                        Fibonacci
+         caso "1"
+            Fibonacci
 
-                  caso "2"
-                        Tribonacci
+         caso "2"
+            Tribonacci
 
-                  caso "3"
-                        quadrados
+         caso "3"
+            quadrados
 
-                  caso "4"
-                        cubos
+         caso "4"
+            cubos
 
-                  caso "5"
-                     escreval("Sequência Geométrica ainda não implementada.")
+         caso "5"
+            escreval("SequÃªncia GeomÃ©trica ainda nÃ£o implementada.")
 
-                  caso "6"
-                     escreval("Sequência Alternada ainda não implementada.")
+         caso "6"
+            escreval("SequÃªncia Alternada ainda nÃ£o implementada.")
 
-                  caso "7"
-                     escreval("Sequência Triangular ainda não implementada.")
+         caso "7"
+            escreval("SequÃªncia Triangular ainda nÃ£o implementada.")
 
-                  caso "8"
-                        fatorial
+         caso "8"
+            fatorial
 
-                  caso "9"
-                        primo
+         caso "9"
+            primo
 
-                  outrocaso
-                     escreval(" Opção inválida. Pressione ENTER para continuar...")
-                     leia(condicional)
+         outrocaso
+            escreval(" OpÃ§Ã£o invÃ¡lida. Pressione ENTER para continuar...")
+            leia(condicional)
 
-               fimescolha
-      
+         fimescolha
+
          SE continua = VERDADEIRO Entao
             escreva(" Deseja continuar? (Sair = 0 / Continuar = qualquer tecla): ")
             leia(condicional)
 
-            Se condicional = "" então
+            Se condicional = "" entÃ£o
                condicional <- "1"
             fimse
-            
-               se condicional = "0" entao
-                   condicao <- FALSO
-               fimse
+
+            se condicional = "0" entao
+               condicao <- FALSO
+            fimse
          SENAO
-              condicao <- FALSO
+            condicao <- FALSO
          fimse
 
-         fimenquanto
+      fimenquanto
    fimenquanto
 Fimalgoritmo
