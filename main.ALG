@@ -95,23 +95,23 @@ Inicio
          t2 <- 1
          t3 <- 1
 
-         SE resposta = 2 ENTAO
+         se resposta = 2 entao
 
-            Se n >= 1 Entao
+            se n >= 1 entao
                Escreval(t1)
-            FimSe
+            fimse
 
-            Se n >= 2 Entao
+            se n >= 2 entao
                Escreval(t2)
-            FimSe
+            fimse
 
-            Se n >= 3 Entao
+            se n >= 3 entao
                Escreval(t3)
             fimse
          fimse
 
          i <- 4
-         ENQUANTO i <= n faca
+         enquanto i <= n faca
             tn <- t1 + t2 + t3
 
             se resposta = 2 entao
@@ -123,21 +123,21 @@ Inicio
             t3 <- tn
 
             i <- i + 1
-         Fimenquanto
+         fimenquanto
 
          escreval(" ")
 
-         Se n = 1 Entao
+         se n = 1 entao
             tn <- t1
-         Senao
-            Se n = 2 Entao
+         senao
+            se n = 2 entao
                tn <- t2
-            Senao
-               Se n = 3 Entao
+            senao
+               se n = 3 entao
                   tn <- t3
-               Fimse
-            Fimse
-         Fimse
+               fimse
+            fimse
+         fimse
 
          se resposta = 1 entao
             Escreval()
@@ -402,18 +402,18 @@ Inicio
 
          fimescolha
 
-         SE continua = VERDADEIRO Entao
+         se continua = VERDADEIRO entao
             escreva(" Deseja continuar? (Sair = 0 / Continuar = qualquer tecla): ")
             leia(condicional)
 
-            Se condicional = "" então
+            se condicional = "" entao
                condicional <- "1"
             fimse
 
             se condicional = "0" entao
                condicao <- FALSO
             fimse
-         SENAO
+         senao
             condicao <- FALSO
          fimse
 
