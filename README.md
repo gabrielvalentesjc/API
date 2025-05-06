@@ -147,7 +147,7 @@
               <td>Quadrados perfeitos</td>
               <td>Como usuário, gostaria de um programa que me peça um número e, com base nele, me retornar apenas o número escolhido elevado a DOIS</td>
               <td>Alta</td>
-              <td>Em andamento</td>
+              <td>Concluída</td>
             </tr>
             <tr>
               <td>Sequência de Tribonacci</td>
@@ -155,7 +155,7 @@
                 Como usuário, gostaria de ter duas formas de interagir com essa sequência: 1. Exigir o valor da posição de um número dessa sequência 2. Exigir uma lista de                 todos os valores de posições anteriores de uma posição desejada dessa sequência. A sequência deve seguir a seguinte regra: o valor de uma posição da                        sequência é igual a soma das TRÊS posições anteriores, sendo que os dois primeiros valores da sequência são iguais a 1
               </td>
               <td>Média</td>
-              <td>Em andamento</td>
+              <td>Concluída</td>
             </tr>
             <tr>
               <td>Sequência de números primos</td>
@@ -163,7 +163,7 @@
                 Como usuário, gostaria de ter duas formas de interagir com essa sequência: 1. Exigir o valor da posição de um número dessa sequência 2. Exigir uma lista de                 todos os valores de posições anteriores de uma posição desejada dessa sequência. A sequência deve seguir a seguinte regra: o valor de uma posição da                        sequência só pode ser um número em que é divisível por 1 e por ele mesmo, não havendo resto
               </td>
               <td>Baixa</td>
-              <td>Em andamento</td>
+              <td>Concluída</td>
             </tr>
           </tbody>
         </table>
@@ -172,7 +172,7 @@
       <h2>
         Burndown
       </h2>
-      <img src= "" alt= "Burndown2">
+      <img src= "https://github.com/user-attachments/assets/2b42ac41-0f2b-4f31-b5d2-47f2f74b2bd9" alt= "Burndown2">
     </li>
   </ul>
 </details>
