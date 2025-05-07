@@ -254,23 +254,25 @@ fimprocedimento
 
 funcao primos (n: inteiro) : logico
 var
-   i, divisores : inteiro
+   i: inteiro
+   limite: inteiro
 inicio
-   divisores <- 0
-   i <- 1
-   enquanto i <= n faca
-      se n % i = 0 entao
-         divisores <- divisores + 1
-      fimse
-
-      i <- i + 1
-   fimenquanto
-
-   se divisores = 2 entao
-      retorne verdadeiro
-   senao
+   se n < 2 entao
       retorne falso
    fimse
+   limite <- 1
+   enquanto limite * limite <= n faca
+      limite <- limite + 1
+   fimenquanto
+   limite <- limite - 1
+
+   para i de 2 ate limite faca
+      se n % i = 0 entao
+         retorne falso
+      fimse
+   fimpara
+
+   retorne verdadeiro
 fimfuncao
 
 //Primos
