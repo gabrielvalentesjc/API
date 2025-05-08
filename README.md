@@ -48,14 +48,14 @@
  | - | - | - | - |
  | Menu | Como usuário, gostaria de poder interagir com todas as funções do programa, sendo ele a parte principal do programa | Alta | Em andamento |
  | Sequência Fibonacci | Como usuário, gostaria de ter duas formas de interagir com essa sequência: 1. Exigir o valor da posição de um número dessa sequência 2. Exigir uma lista de todos os valores de posições anteriores de uma posição desejada dessa sequência. A sequência deve seguir a seguinte regra: o valor de uma posição da sequência é igual a soma das DUAS posições anteriores, sendo que os dois primeiros valores da sequência são iguais a 1 | Alta | Concluída |
- | Números triangulares | Como usuário, quero... | Alta  | Não iniciada |
- | Sequência de números primos | Como usuário, gostaria de ter duas formas de interagir com essa sequência: 1. Exigir o valor da posição de um número dessa sequência 2. Exigir uma lista de todos os valores de posições anteriores de uma posição desejada dessa sequência. A sequência deve seguir a seguinte regra: o valor de uma posição da sequência só pode ser um número em que é divisível por 1 e por ele mesmo, não havendo resto | Baixa | Em andamento |
+ | Números triangulares | Como usuário, gostaria de ter duas formas de interagir com essa sequência: 1. Exigir o valor da posição de um número dessa sequência 2. Exigir uma lista de todos os valores de posições anteriores de uma posição desejada dessa sequência. A sequência deve seguir a seguinte regra: o valor de uma posição da sequência é a soma de duas sequências numéricas que sobem de 1 em 1, em que a segunda sequência começa com 1 em relação a primeira que começa com 0 | Alta  | Em andamento |
+ | Sequência de números primos | Como usuário, gostaria de ter duas formas de interagir com essa sequência: 1. Exigir o valor da posição de um número dessa sequência 2. Exigir uma lista de todos os valores de posições anteriores de uma posição desejada dessa sequência. A sequência deve seguir a seguinte regra: o valor de uma posição da sequência só pode ser um número em que é divisível por 1 e por ele mesmo, não havendo resto | Baixa | Concluída |
  | Números fatoriais | Como usuário, gostaria de um programa que me peça um número e, com base nele, me retornar apenas o fatorial dele | Média | Concluída |
  | Números quadrados perfeitos | Como usuário, gostaria de um programa que me peça um número e, com base nele, me retornar apenas o número escolhido elevado a DOIS | Alta  | Em andamento |
  | Números cúbicos | Como usuário, gostaria de um programa que me peça um número e, com base nele, me retornar apenas o número escolhido elevado a TRÊS | Baixa |  Concluída |
- | Sequência Geométrica | Como usuário, quero... | Baixa | Não iniciada |
- | Sequência alternada | Como usuário, gostaria de ter duas formas de interagir com essa sequência: 1. Exigir o valor da posição de um número dessa sequência 2. Exigir uma lista de todos os valores de posições anteriores de uma posição desejada dessa sequência. A sequência deve seguir a seguinte regra: serão exibidos apenas números ímpares, variando entre valores positivos e negativos, começando com um valor positivo | Média | Não iniciada |
- | Sequência Tribonacci | Como usuário, gostaria de ter duas formas de interagir com essa sequência: 1. Exigir o valor da posição de um número dessa sequência 2. Exigir uma lista de todos os valores de posições anteriores de uma posição desejada dessa sequência. A sequência deve seguir a seguinte regra: o valor de uma posição da sequência é igual a soma das TRÊS posições anteriores, sendo que os dois primeiros valores da sequência são iguais a 1 | Média | Em andamento |
+ | Sequência Geométrica | Como usuário, quero... | Baixa | Em andamento |
+ | Sequência alternada | Como usuário, gostaria de ter duas formas de interagir com essa sequência: 1. Exigir o valor da posição de um número dessa sequência 2. Exigir uma lista de todos os valores de posições anteriores de uma posição desejada dessa sequência. A sequência deve seguir a seguinte regra: serão exibidos apenas números ímpares, variando entre valores positivos e negativos, começando com um valor positivo | Média | Em andamento |
+ | Sequência Tribonacci | Como usuário, gostaria de ter duas formas de interagir com essa sequência: 1. Exigir o valor da posição de um número dessa sequência 2. Exigir uma lista de todos os valores de posições anteriores de uma posição desejada dessa sequência. A sequência deve seguir a seguinte regra: o valor de uma posição da sequência é igual a soma das TRÊS posições anteriores, sendo que os dois primeiros valores da sequência são iguais a 1 | Média | Concluída |
 
 ## Sprints
 
@@ -205,9 +205,11 @@
             </tr>
             <tr>
               <td>Números triangulares</td>
-              <td>Como usuário, gostaria de...</td>
+              <td>
+                Como usuário, gostaria de ter duas formas de interagir com essa sequência: 1. Exigir o valor da posição de um número dessa sequência 2. Exigir uma lista                    de todos os valores de posições anteriores de uma posição desejada dessa sequência. A sequência deve seguir a seguinte regra: o valor de uma posição da                     sequência é a soma de duas sequências numéricas que sobem de 1 em 1, em que a segunda sequência começa com 1 em relação a primeira que começa com 0
+              </td>
               <td>Alta</td>
-              <td>Não iniciada</td>
+              <td>Em andamento</td>
             </tr>
             <tr>
               <td>Sequência alternada</td>
@@ -215,7 +217,7 @@
                 Como usuário, gostaria de ter duas formas de interagir com essa sequência: 1. Exigir o valor da posição de um número dessa sequência 2. Exigir uma lista de                 todos os valores de posições anteriores de uma posição desejada dessa sequência. A sequência deve seguir a seguinte regra: serão exibidos apenas números                    ímpares, variando entre valores positivos e negativos, começando com um valor positivo
               </td>
               <td>Média</td>
-              <td>Não iniciada</td>
+              <td>Em andamento</td>
             </tr>
             <tr>
               <td>Sequência geométrica</td>
@@ -223,7 +225,7 @@
                 Como usuário, gostaria de ter duas formas de interagir com essa sequência: 1. Exigir o valor da posição de um número dessa sequência 2. Exigir uma lista de                 todos os valores de posições anteriores de uma posição desejada dessa sequência. A sequência deve seguir a seguinte regra: ...
               </td>
               <td>Baixa</td>
-              <td>Não iniciada</td>
+              <td>Em andamento</td>
             </tr>
           </tbody>
         </table>
