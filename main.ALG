@@ -252,27 +252,31 @@ inicio
    fimse
 fimprocedimento
 
-funcao primos (n: inteiro) : logico
+funcao ehPrimo (n: inteiro) : logico
 var
-   i: inteiro
-   limite: inteiro
+    i: inteiro
 inicio
-   se n < 2 entao
-      retorne falso
-   fimse
-   limite <- 1
-   enquanto limite * limite <= n faca
-      limite <- limite + 1
-   fimenquanto
-   limite <- limite - 1
-
-   para i de 2 ate limite faca
-      se n % i = 0 entao
-         retorne falso
-      fimse
-   fimpara
-
-   retorne verdadeiro
+    se n <= 1 entao
+        retorne falso
+    fimse
+    
+    se n <= 3 entao
+        retorne verdadeiro
+    fimse
+    
+    se n % 2 = 0 ou n % 3 = 0 entao
+        retorne falso
+    fimse
+    
+    i <- 5
+    enquanto i * i <= n faca
+        se n % i = 0 ou n % (i + 2) = 0 entao
+            retorne falso
+        fimse
+        i <- i + 6
+    fimenquanto
+    
+    retorne verdadeiro
 fimfuncao
 
 //Primos
