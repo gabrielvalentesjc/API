@@ -257,21 +257,13 @@ var
    i, divisores : inteiro
 inicio
 
-   se (n <= 1) entao
-       retorne falso
-   fimse
-
-   se n <= 3 entao
-      retorne verdadeiro
-   fimse
-   
    se (n % 3 = 0) OU (n % 2 = 0) entao
        retorne falso
    fimse
-   
+
    divisores <- 0
-   para i de 5 ate n passo 6 faca
-      se (n % i = 0) OU (n % (i+1) = 0) OU (n % (i+2) = 0) OU (n % (i+3) = 0) OU (n % (i+4) = 0) OU (n % (i+5) = 0) entao
+   para i de 5 ate n passo 2 faca
+      se (n % i = 0) OU (n % (i+1) = 0) entao
          divisores <- divisores + 2
       fimse
    fimpara
@@ -313,14 +305,14 @@ Inicio
       escreva("Digite a posição desejada: ")
       leia(posicao)
 
-      cont <- 0
-      numero <- 1
+      cont <- 2
+      numero <- 3
 
       escolha resposta
 
       caso 1
          enquanto cont < posicao faca
-            numero <- numero + 1
+            numero <- numero + 2
             se primos(numero) entao
                cont <- cont + 1
             fimse
@@ -329,8 +321,11 @@ Inicio
 
       caso 2
          escreval("A sequência de números primos até a posição ", posicao, " é:")
+         escreval ("")
+         escreval (" 2")
+         escreval(" 3")
          enquanto cont < posicao faca
-            numero <- numero + 1
+            numero <- numero + 2
             se primos(numero) entao
                cont <- cont + 1
                escreval (numero)
@@ -409,6 +404,7 @@ Inicio
          outrocaso
             escreval(" Opção inválida. Pressione ENTER para continuar...")
             leia(condicional)
+            interrompa
 
          fimescolha
 
