@@ -257,9 +257,9 @@ var
    i, divisores : inteiro
 inicio
    divisores <- 0
-   para i de 1 ate n faca
+   para i de 2 ate n faca
       se n % i = 0 entao
-         divisores <- divisores + 1
+         divisores <- divisores + 2
       fimse
    fimpara
 
