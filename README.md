@@ -53,7 +53,7 @@
  | Números fatoriais | Como usuário, gostaria de um programa que me peça um número e, com base nele, me retornar apenas o fatorial dele | Média | Concluída |
  | Números quadrados perfeitos | Como usuário, gostaria de um programa que me peça um número e, com base nele, me retornar apenas o número escolhido elevado a DOIS | Alta  | Concluída |
  | Números cúbicos | Como usuário, gostaria de um programa que me peça um número e, com base nele, me retornar apenas o número escolhido elevado a TRÊS | Baixa |  Concluída |
- | Sequência Geométrica | Como usuário, gostaria de ter duas formas de interagir com essa sequência: 1. Exigir o valor da posição de um número dessa sequência 2. Exigir uma lista de todos os valores de posições anteriores de uma posição desejada dessa sequência. A sequência deve seguir a seguinte regra: ... | Baixa | Em andamento |
+ | Sequência Geométrica | Como usuário, gostaria de escolher um número e com base nele fazer a sequência com ele. Quero poder interagir de duas formas com essa sequência: 1. Exigir o valor da posição de um número dessa sequência 2. Exigir uma lista de todos os valores de posições anteriores de uma posição desejada dessa sequência. A sequência deve seguir a seguinte regra: O valor da posição é o valor da posição anterior multiplicado pelo número escolhido na primeira interação. | Baixa | Em andamento |
  | Sequência alternada | Como usuário, gostaria de ter duas formas de interagir com essa sequência: 1. Exigir o valor da posição de um número dessa sequência 2. Exigir uma lista de todos os valores de posições anteriores de uma posição desejada dessa sequência. A sequência deve seguir a seguinte regra: serão exibidos apenas números ímpares, variando entre valores positivos e negativos, começando com um valor positivo | Média | Em andamento |
  | Sequência Tribonacci | Como usuário, gostaria de ter duas formas de interagir com essa sequência: 1. Exigir o valor da posição de um número dessa sequência 2. Exigir uma lista de todos os valores de posições anteriores de uma posição desejada dessa sequência. A sequência deve seguir a seguinte regra: o valor de uma posição da sequência é igual a soma das TRÊS posições anteriores, sendo que os dois primeiros valores da sequência são iguais a 1 | Média | Concluída |
 
@@ -222,7 +222,7 @@
             <tr>
               <td>Sequência geométrica</td>
               <td>
-                Como usuário, gostaria de ter duas formas de interagir com essa sequência: 1. Exigir o valor da posição de um número dessa sequência 2. Exigir uma lista de                 todos os valores de posições anteriores de uma posição desejada dessa sequência. A sequência deve seguir a seguinte regra: ...
+                Como usuário, gostaria de escolher um número e com base nele fazer a sequência com ele. Quero poder interagir de duas formas com essa sequência: 1. Exigir                  o valor da posição de um número dessa sequência 2. Exigir uma lista de todos os valores de posições anteriores de uma posição desejada dessa sequência. A                   sequência deve seguir a seguinte regra: O valor da posição é o valor da posição anterior multiplicado pelo número escolhido na primeira interação.
               </td>
               <td>Baixa</td>
               <td>Em andamento</td>
