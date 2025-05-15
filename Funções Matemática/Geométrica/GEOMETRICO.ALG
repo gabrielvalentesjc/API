@@ -1,4 +1,4 @@
-algoritmo"geometrico"
+algoritmo "geometrico"
 
 Var
    posicao, contador, numero, resultado: real
