@@ -17,6 +17,9 @@ Inicio
    caso "1"
       escreval("Um número da sequência: máximo=>44721000")
       leia (n1)
+se n1<0 ou n1>44721000 entao
+escreval ("Operção impossível, informe um número inteiro maior que 0 e menor que 44721000")
+fimse
 
       f <- n1*(n1+1)/2
 
@@ -25,6 +28,9 @@ Inicio
    caso "2"
       escreval ("A sequencia até o número desejado: máximo=>44721000")
         leia (n1)
+se n1<0 ou n1>44721000 entao
+escreval ("Operção impossível, informe um número inteiro maior que 0 e menor que 44721000")
+fimse
         escreval ("O seu resultado é : ")
         
       enquanto i<n1 faca
