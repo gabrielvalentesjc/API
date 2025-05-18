@@ -31,6 +31,8 @@ Inicio
 
          escreva(" Digite a posição desejada: ")
               leia(posicao)
+
+               se posicao > 0 entao
               
               escreval("")
 
@@ -55,6 +57,10 @@ Inicio
               
               escreval(" O número de posição",contador," é ",resultado)
 
+               senao
+                  escreval("Posição inválida!")
+               fimse
+
          caso "2"
 
               escreva(" Digite o número escolhido: ")
@@ -62,6 +68,8 @@ Inicio
               
               escreva(" Digite a posição final desejada: ")
               leia(posicao)
+
+               se posicao > 0 entao
               
               escreval("")
               
@@ -86,6 +94,10 @@ Inicio
               escreval(" Posição",contador," numero:",resultado)
               
               fimenquanto
+
+            senao
+               escreval("Posição inválida!")
+            fimse
          
          outrocaso
                   escreval("Opção inválida")
