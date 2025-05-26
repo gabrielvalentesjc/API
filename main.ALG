@@ -41,7 +41,7 @@ Inicio
             // Caso 1: Ver número específico da sequência
          caso 1
             escreval(" ")
-            escreva("Digite a posição desejada: máximo 74 => ")
+            escreva("Digite a posição desejada: ")
             leia(numero)
 
             se (numero >= 1) e (numero <= 74) entao
@@ -74,7 +74,7 @@ Inicio
             // Caso 2: Ver sequência até posição desejada
          caso 2
             escreval(" ")
-            escreva("Digite um limite: máximo 74 => ")
+            escreva("Digite um limite: ")
             leia(numero)
 
             se (numero < 75) e (numero > 0) entao
@@ -153,7 +153,7 @@ Inicio
             // Caso 1: Ver número específico da sequência
          caso 1
             escreval(" ")
-            escreva("Digite a posição desejada: máximo 59 => ")
+            escreva("Digite a posição desejada: ")
             leia(numero)
 
             se (numero < 60)e (numero > 0) entao
@@ -192,7 +192,7 @@ Inicio
             // Caso 2: Ver sequência até posição desejada
          caso 2
             escreval(" ")
-            escreva("Digite um limite: máximo 59 => ")
+            escreva("Digite um limite: ")
             leia(numero)
 
             se numero < 60 entao
@@ -256,7 +256,7 @@ Inicio
       escreval(" ")
 
       // Entrada do usuário
-      escreva("Digite um valor inteiro: Máximo 31622776 => ")
+      escreva("Digite um valor inteiro: ")
       leia(numero)
 
       // Enquanto número estiver no intervalo válido
@@ -310,7 +310,7 @@ inicio
       escreval("===========================")
       escreval(" ")
 
-      escreva("Digite um valor inteiro: Máximo 99999 => ")
+      escreva("Digite um valor inteiro: ")
       leia(numero)
 
       // verifica se número está dentro do intervalo válido
@@ -459,7 +459,7 @@ inicio
 
       escreval("===============================")
       escreval("|                             |")
-      escreval("|    SEQUÊNCIA ALTERNADA     |")
+      escreval("|    SEQUÊNCIA ALTERNADA      |")
       escreval("|                             |")
       escreval("===============================")
       escreval(" ")
@@ -483,7 +483,7 @@ inicio
             // Caso 1: Valor da posição
          caso 1
             escreval(" ")
-            escreva("Digite a posição desejada: máximo 10000 => ")
+            escreva("Digite a posição desejada: ")
             leia(numero)
 
             se (numero >= 1) e (numero <=  10000) entao
@@ -501,7 +501,7 @@ inicio
             // Caso 2: Sequência até a posição
          caso 2
             escreval(" ")
-            escreva("Digite um limite: máximo 10000 => ")
+            escreva("Digite um limite: ")
             leia(numero)
 
             se (numero >= 1) e (numero <=  10000) entao
@@ -568,7 +568,7 @@ Inicio
          escolha opcao
             //caso 1: Mostrar termo específico
          caso 1
-            escreva("Digite a posição desejada: Máximo 44721000 => ")
+            escreva("Digite a posição desejada: ")
             leia(n)
 
             se (n > 0) e (n < 44721000) entao
@@ -632,7 +632,7 @@ inicio
       escreval("|                         |")
       escreval("===========================")
 
-      escreva("Digite um valor inteiro: Máximo 17 => ")
+      escreva("Digite um valor inteiro: ")
       leia(numero)
 
       //validação do número e cálculo do fatorial
@@ -695,7 +695,7 @@ inicio
 
       escreval("===========================")
       escreval("|                         |")
-      escreval("|     NÚMEROS PRIMOS     |")
+      escreval("|     NÚMEROS PRIMOS      |")
       escreval("|                         |")
       escreval("===========================")
       escreval("")
@@ -712,7 +712,7 @@ inicio
          escreval("Opção inválida! Digite apenas 1 ou 2.")
       senao
          escreval("")
-         escreva("Digite a posição desejada: Máximo 120 => ")
+         escreva("Digite a posição desejada: ")
          leia(posicao)
 
          //valida posição
