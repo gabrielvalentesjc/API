@@ -65,7 +65,7 @@ Inicio
                fimse
 
                escreval(" ")
-               escreval("Número de Fibonacci na posição ", numero, ": ", fibonacci3)
+               escreval("O número de Fibonacci da posição", numero, " é: ", fibonacci3)
             senao
                escreval("Posição inválida! O valor deve estar entre 1 e 74.")
             fimse
@@ -156,7 +156,7 @@ Inicio
             escreva("Digite a posição desejada: ")
             leia(numero)
 
-            se (numero < 60)e (numero > 0) entao
+            se (numero < 60) e (numero > 0) entao
                tribonacci1 <- 0
                tribonacci2 <- 1
                tribonacci3 <- 1
@@ -184,7 +184,7 @@ Inicio
                fimse
 
                escreval(" ")
-               escreval("Número de Tribonacci na posição ", numero, ": ", TRB)
+               escreval("O número de Tribonacci da posição", numero, " é: ", TRB)
             senao
                escreval("Posição inválida! O valor deve estar entre 1 e 59.")
             fimse
@@ -195,7 +195,7 @@ Inicio
             escreva("Digite um limite: ")
             leia(numero)
 
-            se numero < 60 entao
+            se (numero < 60) e (numero > 0) entao
                tribonacci1 <- 0
                tribonacci2 <- 1
                tribonacci3 <- 1
@@ -265,7 +265,7 @@ Inicio
          resultado <- numero * numero
 
          escreval(" ")
-         escreval("O valor de ", numero, " ao quadrado é ", resultado)
+         escreval("O valor de", numero, " ao quadrado é: ", resultado)
          escreval(" ")
 
          // Pergunta ao usuário se deseja repetir
@@ -279,7 +279,7 @@ Inicio
       //caso o número não seja válido
       se (numero <= 0) ou (numero >= 31622777) entao
          escreval(" ")
-         escreval("Posição inválida! Digite um valor maior que 1 e menor que 31622777.")
+         escreval("Número inválido! Digite um valor entre 1 e 31622776.")
          escreval(" ")
          escreva("Deseja tentar novamente? Digite 0 para sair ou outro valor para continuar: ")
          leia(repetir)
@@ -319,7 +319,7 @@ inicio
          resultado <- numero * numero * numero
 
          escreval(" ")
-         escreval("O valor de ", numero, " ao cubo é ", resultado)
+         escreval("O valor de", numero, " ao cubo é: ", resultado)
          escreval(" ")
 
          // pergunta ao usuário se deseja repetir
@@ -333,7 +333,7 @@ inicio
       // caso número seja inválido
       se (numero <= 0) ou (numero >= 100000) entao
          escreval(" ")
-         escreval("Posição inválido! Digite um valor maior que 1 e menor que 100000.")
+         escreval("Número inválido! Digite um valor entre 1 e 99999.")
          escreval(" ")
          escreva("Deseja tentar novamente? Digite 0 para sair ou outro valor para continuar: ")
          leia(repetir)
@@ -391,8 +391,10 @@ Inicio
 
                //verificação de limite
                se resultado > 999999999999999 entao
+                  resultado <- resultado / numero
                   escreval(" ")
-                  escreval("Posição inválido! Digite um valor maior que 1 e menor que 999999999999999.")
+                  escreval("Posição inválida! A posição calculada ultrapassa o limite.")
+                  escreval("A última posição que pôde ser calculada foi:")
                   interrompa
                fimse
 
@@ -400,9 +402,9 @@ Inicio
             fimenquanto
 
             escreval(" ")
-            escreval("O número na posição ", contador, ": ", resultado)
+            escreval("O número geométrico da posição", contador, " é: ", resultado)
          senao
-            escreval("Opção inválida! Você deve digitar apenas 1 ou 2.")
+            escreval("Posição inválida! Ela deve ser maior que 0.")
          fimse
 
          //caso 2: Exibir sequência
@@ -423,15 +425,15 @@ Inicio
 
                se resultado > 999999999999999 entao
                   escreval(" ")
-                  escreval("Posição inválido! Digite um valor maior que 1 e menor que 999999999999999.")
+                  escreval("Posição inválida! A próxima posição calculada ultrapassa o limite.")
                   interrompa
                fimse
 
                contador <- contador + 1
-               escreval("Posição ", contador, " número: ", resultado)
+               escreval("Posição ", contador, ": ", resultado)
             fimenquanto
          senao
-            escreval("Posição inválido! Digite um valor maior que 1 e menor que 999999999999999.")
+            escreval("Posição inválida! Ela deve ser maior que 0.")
          fimse
 
       outrocaso
@@ -492,7 +494,7 @@ inicio
                   valor <- -valor // se posição par, torna o valor negativo
                fimse
                escreval(" ")
-               escreval("Valor da posição ", numero, ": ", valor)
+               escreval("O número alternado da posição", numero, " é: ", valor)
             senao
                escreval(" ")
                escreval("Posição inválida! O valor deve estar entre 1 e 10000.")
@@ -574,14 +576,14 @@ Inicio
             se (n > 0) e (n < 44721000) entao
                resultado <- n * (n + 1) / 2
                escreval("")
-               escreval("O número triangular na posição ", n, " é: ", resultado)
+               escreval("O número triangular da posição", n, " é: ", resultado)
             senao
                escreval("Posição inválida! O valor deve estar entre 1 e 44721000.")
             fimse
 
             //caso 2: Mostrar sequência até posição n
          caso 2
-            escreva("Digite o valor final da sequência: Máximo 44721000 => ")
+            escreva("Digite o valor final da sequência: ")
             leia(n)
 
             se (n > 0) e (n < 44721000) entao
@@ -648,7 +650,7 @@ inicio
 
          //exibe o resultado
          escreval("")
-         escreval("Fatorial de ", numero, " é ", resultado)
+         escreval("O fatorial de", numero, " é: ", resultado)
          escreval("")
       senao
          escreval("")
@@ -733,7 +735,7 @@ inicio
                   fimse
                fimenquanto
                escreval("")
-               escreval("O número primo da posição ", posicao, " é: ", numero)
+               escreval("O número primo da posição", posicao, " é: ", numero)
             senao
                escreval("")
                escreval("Sequência de primos até a posição ", posicao, ":")
@@ -793,17 +795,10 @@ Inicio
          leia(valor)
 
          // Validação de entrada
-         se (valor < 0) ou (valor > 9) entao
-            escreval("")
-            escreval("Opção inválida!")
-            escreva("Deseja tentar novamente? Digite 0 para sair ou qualquer outro valor para continuar: ")
-            leia(repetir)
-
-         senao
-
             escolha valor
             caso 0
                escreval("Você escolheu sair...")
+               repetir <- valor
             caso 1
                Fibonacci
             caso 2
@@ -822,9 +817,15 @@ Inicio
                fatorial
             caso 9
                primo
+            outrocaso
+               escreval("")
+               escreval("Opção inválida!")
+               escreva("Deseja tentar novamente? Digite 0 para sair ou qualquer outro valor para continuar: ")
+               leia(valor)
+               escreval("Você escolheu sair...")
+               repetir <- valor
             fimescolha
-         fimse
-
+         fimenquanto
       fimenquanto
 fimprocedimento
 
