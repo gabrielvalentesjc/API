@@ -1,4 +1,3 @@
-![Aprendizado Por Projeto Integrado (1)](https://github.com/user-attachments/assets/9f28fe3d-6635-4eca-8655-17f9e63a8e02)
 
 ## Tópicos 
 
